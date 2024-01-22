@@ -1,0 +1,21 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff
+  }
+  
+  .text-container {
+    width: 50%; 
+  }
+  
+  .image-container {
+    width: 50%; 
+    text-align: right;
+  }
+  
+  img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+  }
+  
