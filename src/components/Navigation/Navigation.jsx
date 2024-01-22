@@ -7,10 +7,10 @@ const Navigation = () => {
       <span className="nav-logo">Bimisha</span>
 
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/service">Skills</a>
-        <a href="/project">Projects</a>
-        <a href="/contact">Contact</a>
+        <a href="/home" onClick={() => onSectionChange("home")}>Home</a>
+        <a href="/skills" onClick={() => onSectionChange("skills")}>Skills</a>
+        <a href="/projects" onClick={() => onSectionChange("projects")}>Projects</a>
+        <a href="/contact" onClick={() => onSectionChange("contact")}>Contact</a>
       </div>
 
 
